@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #EAEEFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px solid #0187C4;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #0187C4;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 30px auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.titulo {
+  color: #0187C4;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+.bloque {
+  border-top: 2px solid #0187C4;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.bloque h3 {
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.opciones button {
+  background: #0187C4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.opciones button:hover {
+  background: #016d9f;
+}
+
+
+.tema {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-tema {
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-tema.claro {
+  background: #f1f1f1;
+}
+
+.btn-tema.oscuro {
+  background: #000;
+  color: #fff;
+}
+
+.fuente {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="range"] {
+  accent-color: #0187C4;
+}
+
+.colores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 15px;
+}
+

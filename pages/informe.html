@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Alumnos</title>
+  <link rel="stylesheet" href="../style/gestion.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <nav>
+        <ul>
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="recibo.html">Emitir recibo</a></li>
+            <li><a href="gestion.html">Gestión de alumnos</a></li>
+            <li><a href="informe.html">Informe</a></li>
+            <li><a href="ajuste.html">Ajustes</a></li>
+        </ul>
+        </nav>
+    </header>
+
+  <main class="contenedor">
+    <section class="filtros">
+      <div class="buscar">
+        <label for="buscar">Buscar:</label>
+        <input type="text" id="buscar" placeholder="Nombre o DNI">
+      </div>
+    </section>
+
+    <section class="tabla">
+      <table>
+        <thead>
+          <tr>
+            <th>Alumno</th>
+            <th>D.N.I</th>
+            <th>Fecha</th>
+            <th>Cuotas</th>
+            <th>Exportar</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-alumnos">
+          <tr>
+            <td colspan="5" class="mensaje-vacio">No hay alumnos cargados todavía</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

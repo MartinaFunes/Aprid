@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #EAEEFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 20px;
+  background: #E1E5FA;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.main-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: auto;
+  color: #333;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  background: url('../logo.png') center/cover no-repeat;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  flex: 1;
+  max-width: 250px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E1E5FA;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: .2s ease;
+  text-align: center;
+}
+
+.card:hover {
+  background: #0187C4;
+  color: #fff;
+}
